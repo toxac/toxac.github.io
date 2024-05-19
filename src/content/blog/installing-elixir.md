@@ -1,3 +1,19 @@
+---
+title: 'Installing Elixir'
+description: 'Learn to install and run elixir with erlang on your machine using asdf'
+series: 'elixir'
+category: 'course'
+tags:
+  - 'elixir'
+  - 'elixir course'
+  - 'installation'
+pubDate: 'May 05 2024'
+heroImage: ''
+
+---
+
+
+
 # Installing Elixir on Ubuntu using ***asdf***
 
 asdf is general purpose version manager which let's you manage versions and installations for multiple languages including elixir. We will be using asdf for installing and managing elixir versions. If you don't want to setup asdf, you can install elixir and erlang directly.
