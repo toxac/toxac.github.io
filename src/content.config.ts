@@ -60,7 +60,8 @@ const blog = defineCollection({
 			'work', 
 			'thoughts', 
 			'curiosity', 
-			'projects'
+			'projects',
+			'guide'
 		]),
 		// Tags for additional flexibility
 		tags: z.array(z.string()).optional(),

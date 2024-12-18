@@ -3,7 +3,7 @@ title: "Selecting the Right Email Service Provider (ESP)"
 description: "Comprehensive guide to choosing the best email service provider for your business needs"
 pubDate: 2024-04-01
 theme: "marketing"
-category: "business"
+category: "guide"
 tags: ["email", "marketing", "services"]
 series: 
   name: "Mastering Email: From Basics to Advanced Strategies"
