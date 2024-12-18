@@ -3,7 +3,7 @@ title: "Server-Side Web Development: Backend Foundations"
 description: "Deep dive into server-side technologies, request handling, and backend architectures"
 pubDate: 2024-05-01
 theme: "webDevelopment"
-category: "work"
+category: "guide"
 tags: ["backend", "server", "web development"]
 series: 
   name: "The Web Development Journey"

@@ -3,7 +3,7 @@ title: "Email Protocols Deep Dive: SMTP, POP3, IMAP, and Beyond"
 description: "Comprehensive exploration of email communication protocols and their intricate workings"
 pubDate: 2024-03-15
 theme: "marketing"
-category: "work"
+category: "guide"
 tags: ["email", "protocols", "networking"]
 series: 
   name: "Mastering Email: From Basics to Advanced Strategies"

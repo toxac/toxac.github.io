@@ -3,7 +3,7 @@ title: "Email Security and Privacy in the Digital Age"
 description: "Comprehensive guide to protecting email communications and user data"
 pubDate: 2024-07-01
 theme: "webDevelopment"
-category: "work"
+category: "guide"
 tags: ["security", "privacy", "email"]
 series: 
   name: "Mastering Email: From Basics to Advanced Strategies"

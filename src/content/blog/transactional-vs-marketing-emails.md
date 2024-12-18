@@ -3,7 +3,7 @@ title: "Transactional vs Marketing Emails: Strategic Differences"
 description: "Comprehensive exploration of different email types, their purposes, and best practices"
 pubDate: 2024-04-15
 theme: "marketing"
-category: "work"
+category: "guide"
 tags: ["email", "marketing", "communication"]
 series: 
   name: "Mastering Email: From Basics to Advanced Strategies"

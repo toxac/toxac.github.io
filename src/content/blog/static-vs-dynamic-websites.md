@@ -3,7 +3,7 @@ title: "Static vs Dynamic Websites: Choosing the Right Approach"
 description: "Comprehensive comparison of static and dynamic website architectures, use cases, and trade-offs"
 pubDate: 2024-04-01
 theme: "webDevelopment"
-category: "work"
+category: "guide"
 tags: ["website architecture", "static sites", "dynamic sites"]
 series: 
   name: "The Web Development Journey"

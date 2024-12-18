@@ -3,7 +3,7 @@ title: "Client-Side Web Development: Foundations and Techniques"
 description: "Comprehensive exploration of client-side technologies, rendering, and interactive web experiences"
 pubDate: 2024-04-15
 theme: "webDevelopment"
-category: "work"
+category: "guide"
 tags: ["JavaScript", "frontend", "web development"]
 series: 
   name: "The Web Development Journey"

@@ -3,7 +3,7 @@ title: "Web Technologies Fundamentals: Building Blocks of the Internet"
 description: "Deep dive into the core technologies that power websites and web applications"
 pubDate: 2024-03-15
 theme: "webDevelopment"
-category: "education"
+category: "guide"
 tags: ["HTML", "CSS", "JavaScript", "web technologies"]
 series: 
   name: "The Web Development Journey"

@@ -3,7 +3,7 @@ title: "Email Deliverability and Infrastructure Mastery"
 description: "Deep dive into ensuring your emails reach their intended recipients"
 pubDate: 2024-05-15
 theme: "marketing"
-category: "work"
+category: "guide"
 tags: ["email", "infrastructure", "deliverability"]
 series: 
   name: "Mastering Email: From Basics to Advanced Strategies"

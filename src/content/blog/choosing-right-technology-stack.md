@@ -3,7 +3,7 @@ title: "Choosing Your Web Development Technology Stack"
 description: "Comprehensive guide to selecting the right technologies for your web development project"
 pubDate: 2024-07-15
 theme: "webDevelopment"
-category: "education"
+category: "guide"
 tags: ["technology stack", "decision making", "web development"]
 series: 
   name: "The Web Development Journey"

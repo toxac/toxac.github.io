@@ -3,7 +3,7 @@ title: "Programmatic Email: Comprehensive Coding Guide"
 description: "Practical guide to sending emails programmatically across multiple languages and services"
 pubDate: 2024-06-01
 theme: "webDevelopment"
-category: "work"
+category: "guide"
 tags: ["programming", "email", "coding"]
 series: 
   name: "Mastering Email: From Basics to Advanced Strategies"

@@ -22,7 +22,8 @@ const series = defineCollection({
 	  ]),
 	  category: z.enum([
 		'work', 
-		'thoughts', 
+		'thoughts',
+		'guide', 
 		'curiosity', 
 		'projects'
 	  ]),

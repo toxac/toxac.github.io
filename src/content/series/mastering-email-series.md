@@ -2,7 +2,7 @@
 title: "Mastering Email: From Basics to Advanced Strategies"
 description: "A comprehensive journey through email technologies, marketing, and best practices for businesses and developers"
 theme: "marketing"
-category: "work"
+category: "guide"
 posts: [
   "email-history-evolution",
   "email-protocols-explained",

@@ -3,7 +3,7 @@ title: "Email Design and Development Mastery"
 description: "Comprehensive guide to creating responsive, cross-client compatible HTML emails"
 pubDate: 2024-05-01
 theme: "webDevelopment"
-category: "work"
+category: "guide"
 tags: ["email", "HTML", "design"]
 series: 
   name: "Mastering Email: From Basics to Advanced Strategies"

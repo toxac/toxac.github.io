@@ -3,7 +3,7 @@ title: "Modern Frontend Frameworks: React, Vue, Angular, and Beyond"
 description: "Comprehensive comparison of contemporary frontend frameworks, their philosophies, and use cases"
 pubDate: 2024-06-01
 theme: "webDevelopment"
-category: "work"
+category: "guide"
 tags: ["frameworks", "React", "Vue", "Angular"]
 series: 
   name: "The Web Development Journey"

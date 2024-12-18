@@ -3,7 +3,7 @@ title: "Advanced Email Marketing Strategies"
 description: "Sophisticated approaches to email marketing, automation, and optimization"
 pubDate: 2024-06-15
 theme: "marketing"
-category: "business"
+category: "guide"
 tags: ["marketing", "email", "strategy"]
 series: 
   name: "Mastering Email: From Basics to Advanced Strategies"

@@ -3,7 +3,7 @@ title: "Modern Backend Frameworks: Node.js, Django, Ruby on Rails, and More"
 description: "Exploring contemporary server-side frameworks, their strengths, and architectural approaches"
 pubDate: 2024-06-15
 theme: "webDevelopment"
-category: "work"
+category: "guide"
 tags: ["backend", "Node.js", "Django", "Rails"]
 series: 
   name: "The Web Development Journey"

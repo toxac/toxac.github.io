@@ -3,7 +3,7 @@ title: "Client-Side vs Server-Side Rendering: Architectural Decisions"
 description: "Comprehensive analysis of rendering strategies, performance implications, and architectural trade-offs"
 pubDate: 2024-07-01
 theme: "webDevelopment"
-category: "work"
+category: "guide"
 tags: ["rendering", "performance", "web architecture"]
 series: 
   name: "The Web Development Journey"

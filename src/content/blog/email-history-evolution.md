@@ -3,7 +3,7 @@ title: "The Evolution of Email: From ARPANET to Modern Communication"
 description: "Tracing the technological journey of email from its earliest inception to today's complex communication system"
 pubDate: 2024-03-01
 theme: "marketing"
-category: "education"
+category: "guide"
 tags: ["email", "technology", "communication"]
 series: 
   name: "Mastering Email: From Basics to Advanced Strategies"

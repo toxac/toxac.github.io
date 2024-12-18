@@ -3,7 +3,7 @@ title: "The Future of Email: Emerging Technologies and Trends"
 description: "Exploring cutting-edge innovations and potential future directions in email technology"
 pubDate: 2024-07-15
 theme: "marketing"
-category: "technology"
+category: "thoughts"
 tags: ["future", "email", "innovation"]
 series: 
   name: "Mastering Email: From Basics to Advanced Strategies"

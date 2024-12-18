@@ -3,7 +3,7 @@ title: "The Evolution of Web Development: A Historical Perspective"
 description: "Tracing the technological and cultural journey of web development from its earliest days to the present"
 pubDate: 2024-03-01
 theme: "webDevelopment"
-category: "education"
+category: "guide"
 tags: ["history", "web", "technology"]
 series: 
   name: "The Web Development Journey"

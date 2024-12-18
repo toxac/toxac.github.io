@@ -2,7 +2,7 @@
 title: "The Web Development Journey: From Static Pages to Modern Applications"
 description: "A comprehensive guide exploring the evolution of web development, from early approaches to modern frameworks and architectures"
 theme: "webDevelopment"
-category: "education"
+category: "guide"
 posts: [
   "web-development-historical-context",
   "fundamentals-of-web-technologies",
