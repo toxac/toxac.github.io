@@ -9,6 +9,7 @@ const blog = defineCollection({
         icon: z.string(),
         title: z.string(),
         description: z.string(),
+        categories: z.array(z.enum(['Web Development', 'Marketing', 'Data', 'Guide', 'Project', "Thoughts"])).optional(),
         // Transform string to Date object
         pubDate: z.coerce.date(),
         updatedDate: z.coerce.date().optional(),
