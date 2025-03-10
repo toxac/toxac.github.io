@@ -11,4 +11,5 @@ import icon from "astro-icon";
 export default defineConfig({
   output:'static',
   integrations: [mdx(), sitemap(), tailwind(), icon()],
+  site: 'https://amitch.site',
 });
