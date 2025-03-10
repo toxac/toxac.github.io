@@ -17,20 +17,21 @@ jobs:
       - name: Checkout your repository
         uses: actions/checkout@v3
 
-      - name: Update actions/upload-artifact to v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+
+      - name: Upload build artifacts
         uses: actions/upload-artifact@v4
         with:
           path: dist
-
-      - name: Install, build, and upload your site
-        uses: withastro/action@v1
-        with:
-          node-version: 18
-          package-manager: npm
-          path: dist
-
-      - name: Verify build output
-        run: ls -R dist
 
   deploy:
     needs: build
@@ -39,6 +40,11 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Download build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: dist
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
