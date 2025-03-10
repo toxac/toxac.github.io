@@ -1,0 +1,26 @@
+---
+import { getCollection } from "astro:content";
+import BaseHead from "@/components/BaseHead.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import ProjectViewer from "../../components/ProjectViewer.tsx";
+
+const projects = await getCollection("projects");
+---
+
+<html lang="en">
+  <head>
+    <BaseHead
+      title="amitch|selected projects"
+      description="Some of the projects I have done and remember fair bit about"
+    />
+  </head>
+  <body class="p-0 m-0 max-w-screen">
+    <Header />
+    <main class="container mx-auto md:px-10">
+      <h1>Projects</h1>
+      <ProjectViewer client:load projects={projects} />
+    </main>
+    <Footer />
+  </body>
+</html>

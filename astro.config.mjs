@@ -7,9 +7,12 @@ import tailwind from "@astrojs/tailwind";
 import icon from "astro-icon";
 
 
+import solidJs from "@astrojs/solid-js";
+
+
 // https://astro.build/config
 export default defineConfig({
   output:'static',
-  integrations: [mdx(), sitemap(), tailwind(), icon()],
+  integrations: [mdx(), sitemap(), tailwind(), icon(), solidJs()],
   site: 'https://amitch.site',
 });
