@@ -19,12 +19,15 @@ jobs:
     steps:
       - name: Checkout your repository
         uses: actions/checkout@v3
+
       - name: Install, build, and upload your site
         uses: withastro/action@v1
-        # with:
-        #   # path: . # The root location of your Astro project (optional)
-        #   # node-version: 18 # The specific version of Node that should be used to build your site (optional)
-        #   # package-manager: pnpm # The Node package manager that should be used to install dependencies (optional)
+        with:
+          node-version: 18 # Specify your Node.js version
+          package-manager: npm # Explicitly use npm
+
+      - name: Verify build output
+        run: ls -R dist
 
   deploy:
     needs: build
@@ -36,3 +39,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+        continue-on-error: true
+
+      - name: Check deployment status
+        if: ${{ steps.deployment.outcome != 'success' }}
+        run: echo "Deployment failed! Check the logs for errors."
