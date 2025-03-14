@@ -14,13 +14,17 @@ const { project } = Astro.props;
   </head>
   <body class="p-0 m-0 max-w-screen">
     <Header />
-    <main class="container mx-auto md:px-10">
-      <article>
+    <img
+      class="w-full object-cover"
+      src={project.data.image}
+      alt={project.data.imageAlt}
+    />
+    <main class="container max-w-5xl mx-auto md:px-10">
+      <article class="mt-6">
         <h1>{project.data.title}</h1>
-        <p>Year: {project.data.year}</p>
-        <p>Status: {project.data.status}</p>
-        <img src={project.data.image} alt={project.data.imageAlt} />
-        <div class="content">
+        <p>Year: {project.data.year} ({project.data.status})</p>
+
+        <div class="content prose prose-lg my-6">
           <slot />
         </div>
         <a href="/projects">Back to Projects</a>
